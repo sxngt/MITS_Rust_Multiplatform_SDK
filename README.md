@@ -33,6 +33,7 @@
   <br>
 ```python
 #Legacy Flow
+
 def b():
   return 0
 def a():
@@ -41,6 +42,7 @@ def a():
 #Refrain from designing function connectivity
 
 #Using SDK Method
+
 any_varialbe = Rusted_a()
 Rusted_b(any_varialbe)
 
