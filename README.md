@@ -32,7 +32,7 @@
 * 메소드들 중 최후 레이어에서 Native Language Built-in 함수들을 콜백으로 써야 할 경우를 지양해야 합니다.
   <br>
 * example
-  '''python
+  '''
   #Legacy Flow
   def b():
     return 0
