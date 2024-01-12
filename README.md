@@ -28,7 +28,7 @@
 - Tauri 기반 Desktop App 서비스 CI/CD 지원. 
 - JNI 관련 비동기 처리 자동 빌드 환경 (코틀린이 있어서 미루는 중)
 
-## ⚠ 개발 기간
+## ⚠ 설계 지향성
 * 메소드들 중 최후 레이어에서 Native Language Built-in 함수들을 콜백으로 써야 할 경우를 지양해야 합니다.
   <br>
 ```python
