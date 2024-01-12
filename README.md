@@ -31,22 +31,21 @@
 ## ⚠ 개발 기간
 * 메소드들 중 최후 레이어에서 Native Language Built-in 함수들을 콜백으로 써야 할 경우를 지양해야 합니다.
   <br>
-* example
-  '''
-  #Legacy Flow
-  def b():
-    return 0
-  def a():
-    return b()
+'''
+#Legacy Flow
+def b():
+  return 0
+def a():
+  return b()
 
-  #Refrain from designing function connectivity
+#Refrain from designing function connectivity
 
-  #Using SDK Method
-  any_varialbe = Rusted_a()
-  Rusted_b(any_varialbe)
+#Using SDK Method
+any_varialbe = Rusted_a()
+Rusted_b(any_varialbe)
 
-  #Design to hand over parameters continuously
-  '''
+#Design to hand over parameters continuously
+'''
   
 
 ## Flow
