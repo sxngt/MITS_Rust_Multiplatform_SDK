@@ -31,7 +31,7 @@
 ## ⚠ 개발 기간
 * 메소드들 중 최후 레이어에서 Native Language Built-in 함수들을 콜백으로 써야 할 경우를 지양해야 합니다.
   <br>
-'''
+```python
 #Legacy Flow
 def b():
   return 0
@@ -45,7 +45,7 @@ any_varialbe = Rusted_a()
 Rusted_b(any_varialbe)
 
 #Design to hand over parameters continuously
-'''
+```
   
 
 ## Flow
