@@ -20,13 +20,34 @@
 ## 📌 주요 기능
 #### 지원 빌드환경
 - Kotlin
-- Pyhon
+- Python
 - Swift
 - Wasm
 
 #### 지원 예정 기능
 - Tauri 기반 Desktop App 서비스 CI/CD 지원. 
 - JNI 관련 비동기 처리 자동 빌드 환경 (코틀린이 있어서 미루는 중)
+
+## ⚠ 개발 기간
+* 메소드들 중 최후 레이어에서 Native Language Built-in 함수들을 콜백으로 써야 할 경우를 지양해야 합니다.
+  <br>
+* example
+  '''python
+  #Legacy Flow
+  def b():
+    return 0
+  def a():
+    return b()
+
+  #Refrain from designing function connectivity
+
+  #Using SDK Method
+  any_varialbe = Rusted_a()
+  Rusted_b(any_varialbe)
+
+  #Design to hand over parameters continuously
+  '''
+  
 
 ## Flow
 ![제목을-입력해주세요_-001](https://github.com/ysh8614/MITS_Rust_Multiplatform_SDK/assets/76057036/85a209e0-e6b7-4d9a-9902-923bb1b246bf)
