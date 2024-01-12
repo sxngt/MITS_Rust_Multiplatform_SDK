@@ -25,6 +25,7 @@
 - Wasm
 
 #### 지원 예정 기능
+- UDL autoParsing Writer (러스트 함수 작성 시 UDL 자동작성)
 - Tauri 기반 Desktop App 서비스 CI/CD 지원. 
 - JNI 관련 비동기 처리 자동 빌드 환경 (코틀린이 있어서 미루는 중)
 
