@@ -27,4 +27,4 @@
 - JNI 관련 비동기 처리 자동 빌드 환경 (코틀린이 있어서 미루는 중)
 
 ## Flow
-![added]("https://github.com/ysh8614/MITS_Rust_Multiplatform_SDK/assets/76057036/85a209e0-e6b7-4d9a-9902-923bb1b246bf")
+![제목을-입력해주세요_-001](https://github.com/ysh8614/MITS_Rust_Multiplatform_SDK/assets/76057036/85a209e0-e6b7-4d9a-9902-923bb1b246bf)
