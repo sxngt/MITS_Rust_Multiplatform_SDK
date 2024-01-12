@@ -108,7 +108,7 @@ class RustBufferByReference : ByReference(16) {
 // It's not actually used at the moment, because there aren't many things that you
 // can take a direct pointer to in the JVM, and if we're going to copy something
 // then we might as well copy it into a `RustBuffer`. But it's here for API
-// completeness.
+// completeness..
 
 @Structure.FieldOrder("len", "data")
 open class ForeignBytes : Structure() {
